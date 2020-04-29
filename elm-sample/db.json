@@ -1,0 +1,112 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "room1",
+      "users": [
+        1, 2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "room2",
+      "users": [
+        1, 2, 3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "room3",
+      "users": [
+        2, 3, 4
+      ]
+    },
+    {
+      "id": 4,
+      "name": "room4",
+      "users": [
+        2, 4, 1
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "user1"
+    },
+    {
+      "id": 2,
+      "name": "user2"
+    },
+    {
+      "id": 3,
+      "name": "user3"
+    },
+    {
+      "id": 4,
+      "name": "user4"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "userId": 1,
+      "body": "message1"
+    },
+    {
+      "id": 2,
+      "roomId": 1,
+      "userId": 2,
+      "body": "message2"
+    },
+    {
+      "id": 3,
+      "roomId": 1,
+      "userId": 2,
+      "body": "message3"
+    },
+    {
+      "id": 4,
+      "roomId": 1,
+      "userId": 1,
+      "body": "message4"
+    },
+    {
+      "id": 5,
+      "roomId": 2,
+      "userId": 1,
+      "body": "message5"
+    },
+    {
+      "id": 6,
+      "roomId": 2,
+      "userId": 1,
+      "body": "message6"
+    },
+    {
+      "id": 7,
+      "roomId": 2,
+      "userId": 2,
+      "body": "message7"
+    }
+
+  ],
+  "read": [
+    {
+      "id": 1,
+      "messageId": 1,
+      "users": [2]
+    },
+    {
+      "id": 2,
+      "messageId": 2,
+      "users": [1]
+    },
+    {
+      "id": 3,
+      "messageId": 3,
+      "users": [1]
+    }
+  ]
+}
